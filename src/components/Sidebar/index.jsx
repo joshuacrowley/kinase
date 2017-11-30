@@ -57,6 +57,7 @@ class Sidebar extends React.Component {
         </header>
         <SearchInput className={styles.searchBox} onChange={this.searchUpdated} />
         <ul className={styles.annotationList}>{this.getAnnotations()}</ul>
+        <iframe url="https://bundleapp.com.au/list" />
       </div>
     );
   }
